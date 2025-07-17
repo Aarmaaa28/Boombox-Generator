@@ -1,2 +1,3 @@
 # Top4Top.io
-This JavaScript scraping script module for top4Top.io is designed simply for uploading files or other types of content to the top4Top.io platform and automatically obtaining links.
+
+This simple scraping script using JavaScript for top4Top.io is specifically designed to upload files or other types of content to the top4Top.io platform and automatically obtain the links.
