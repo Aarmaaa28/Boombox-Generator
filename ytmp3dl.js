@@ -27,7 +27,7 @@ export async function ytmp3dl(url) {
   if (!data?.link) throw new Error('Download link not found')
 
   return {
-    title: (data.filename ?? 'Unknown Title').replace(/\.mp3$/i, ''),
+    title: (data.filename ?? 'Unknown').replace(/\.mp3$/i, ''),
     link: data.link,
     type: 'mp3'
   }
