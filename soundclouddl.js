@@ -1,7 +1,6 @@
 import axios from 'axios'
 
 export async function soundclouddl(url) {
-  if (!/^https?:\/\/.+/i.test(url)) throw new Error('Please provide a URL.')
   if (!/soundcloud\.com/.test(url)) throw new Error('Invalid SoundCloud URL.')
 
   try {
