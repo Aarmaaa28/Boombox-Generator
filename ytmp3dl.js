@@ -28,7 +28,6 @@ export async function ytmp3dl(url) {
 
   return {
     title: (data.filename ?? 'Unknown').replace(/\.mp3$/i, ''),
-    link: data.link,
-    type: 'mp3'
+    link: data.link
   }
 }
